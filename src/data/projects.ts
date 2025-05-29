@@ -9,5 +9,14 @@ export const projects: Project[] = [
     tags: ["React", "Node.js", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://qr-code-generator-sooty-two.vercel.app/",
     githubUrl: "https://github.com/NAUTBOL/qr-code-generator"
+  },
+  {
+    id: 2,
+    title: "SolarFleets",
+    description: "Digitize and automate your fleet management: intelligent document scanning, maintenance tracking, expiration alerts, and performance analysis all in one place.",
+    image: "/images/screencapture-solarfleets-es-2025-05-29-14_06_59.png",
+    tags: ["React", "Node.js", "Nest.js", "TypeScript", "Refine", "MongoDB", "Ant Design", "OpenAI"],
+    demoUrl: "https://www.solarfleets.com/",
+    githubUrl: "https://github.com/NAUTBOL/"
   }
 ];
