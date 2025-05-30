@@ -16,7 +16,7 @@ const Hero: React.FC = () => {
           </p>
           
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight animate-slideUp opacity-0" style={{ animationDelay: '0.3s', animationFillMode: 'forwards' }}>
-            Hi, I'm <span className="text-gradient from-accent-blue to-accent-purple">NAUTBOL</span>
+            Hi, I'm <span className="text-gradient from-accent-blue to-accent-purple">KUANTYK</span>
           </h1>
           
           <p className="text-xl text-text-secondary mb-8 leading-relaxed animate-slideUp opacity-0" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>

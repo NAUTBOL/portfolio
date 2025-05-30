@@ -33,7 +33,7 @@ const Navbar: React.FC = () => {
         <div className="flex justify-between h-16 items-center">
           <div className="flex items-center">
             <a href="#" className="text-xl font-bold text-text-primary hover:text-accent-blue transition-colors">
-              <span className="text-accent-blue">NAUT</span>BOL
+              <span className="text-accent-blue">KUAN</span>TYK
             </a>
           </div>
           
@@ -49,7 +49,7 @@ const Navbar: React.FC = () => {
                 href="#contact" 
                 className="btn-primary text-sm"
               >
-                Hire Me
+                Contact
               </a>
             </div>
             
