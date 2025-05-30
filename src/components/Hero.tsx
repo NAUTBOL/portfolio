@@ -1,5 +1,4 @@
 import React from 'react';
-import { Github, Star, Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
   return (
@@ -23,33 +22,6 @@ const Hero: React.FC = () => {
             A passionate web developer crafting beautiful, functional, and user-centered digital experiences.
           </p>
 
-          <div className="flex flex-wrap justify-center gap-4 mb-12 animate-slideUp opacity-0" style={{ animationDelay: '0.7s', animationFillMode: 'forwards' }}>
-            <a href="#projects" className="btn-primary">
-              View My Work
-            </a>
-            <a href="#contact" className="btn-outline">
-              Contact Me
-            </a>
-            <a
-              href="https://github.com/NAUTBOL"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-secondary"
-            >
-              <Github size={18} className="mr-2" />
-              <Star size={18} className="mr-2" />
-              Star
-            </a>
-            <a
-              href="https://www.linkedin.com/in/leandrotorressilva/"
-              className="btn-secondary"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Download size={18} className="mr-2" />
-              Resume
-            </a>
-          </div>
         </div>
 
       </div>
