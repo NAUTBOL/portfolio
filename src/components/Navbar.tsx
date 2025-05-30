@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <div className="hidden md:block">
               <a
-                href="#contact"
+                href="https://www.paypal.com/paypalme/NAUTBOL"
                 className="btn-primary text-sm"
               >
                 <Paypal size={18} className="mr-2" />
