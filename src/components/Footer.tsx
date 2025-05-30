@@ -1,9 +1,9 @@
 import React from 'react';
-import { Github, Linkedin, Twitter, Heart } from 'lucide-react';
+import { Github, Linkedin, Twitter, Heart, Store } from 'lucide-react';
 import { socialLinks } from '../data/social';
 
 const Footer: React.FC = () => {
-  
+
   return (
     <footer className="bg-dark-800 py-12">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -16,20 +16,20 @@ const Footer: React.FC = () => {
               Creating exceptional digital experiences through clean code and thoughtful design.
             </p>
           </div>
-          
+
           <div className="flex space-x-6">
             {socialLinks.map((link) => {
-              const Icon = link.icon === 'github' 
-                ? Github 
-                : link.icon === 'linkedin' 
-                  ? Linkedin 
+              const Icon = link.icon === 'github'
+                ? Github
+                : link.icon === 'linkedin'
+                  ? Linkedin
                   : Twitter;
-                  
+
               return (
-                <a 
+                <a
                   key={link.id}
-                  href={link.url} 
-                  target="_blank" 
+                  href={link.url}
+                  target="_blank"
                   rel="noopener noreferrer"
                   className="text-text-secondary hover:text-accent-blue transition-colors"
                   aria-label={link.name}
@@ -38,9 +38,19 @@ const Footer: React.FC = () => {
                 </a>
               );
             })}
+            <a
+              key={4}
+              href={"https://nautbol.gumroad.com/"}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-text-secondary hover:text-accent-blue transition-colors"
+              aria-label={"store"}
+            >
+              <Store size={24} />
+            </a>
           </div>
         </div>
-        
+
         <div className="border-t border-dark-600 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-text-secondary text-sm mt-4 md:mt-0 flex items-center">
             Made with <Heart size={16} className="mx-1 text-accent-pink" /> using React & Tailwind CSS
