@@ -9,5 +9,14 @@ export const projects: Project[] = [
     tags: ["React", "Node.js", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://qr.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/qr-code-generator"
+  },
+    {
+    id: 2,
+    title: "Smart Fleets Management",
+    description: "A comprehensive fleet management system designed to streamline operations, enhance efficiency, and improve overall fleet performance.",
+    image: "/images/truck.png",
+    tags: ["Refine", "NestJS", "Ant Design", "TypeScript"],
+    demoUrl: "https://www.solarfleets.com/",
+    githubUrl: "https://github.com/NAUTBOL/"
   }
 ];
