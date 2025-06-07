@@ -27,5 +27,14 @@ export const projects: Project[] = [
     tags: ["Node.js", "Tesseract.js", "JavaScript"],
     demoUrl: "https://ocr.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/vision-scribe-dark"
+  },
+  {
+    id: 4,
+    title: "IP Address Display",
+    description: "A simple web application that displays the user's IP address, providing a quick and easy way to check your public IP.",
+    image: "/images/ip.png",
+    tags: ["React", "Node.js", "Tailwind CSS", "TypeScript"],
+    demoUrl: "https://ip.kuantyk.com/",
+    githubUrl: "https://github.com/NAUTBOL/ip"
   }
 ];
