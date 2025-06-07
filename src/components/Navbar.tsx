@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Palette as Paypal } from 'lucide-react';
+import { Menu, X, Heart } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -42,7 +42,7 @@ const Navbar: React.FC = () => {
                 href="https://www.paypal.com/paypalme/NAUTBOL"
                 className="btn-primary text-sm"
               >
-                <Paypal size={18} className="mr-2" />
+                <Heart size={18} className="mr-2" />
                 Donate
               </a>
             </div>
