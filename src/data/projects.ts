@@ -36,5 +36,14 @@ export const projects: Project[] = [
     tags: ["React", "Node.js", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://ip.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/ip"
+  },
+    {
+    id: 5,
+    title: "Image Compressor",
+    description: "Compress and resize your images for social media, WhatsApp, and web use. Fast, free, and privacy-focused - all processing happens in your browser.",
+    image: "/images/resize.png",
+    tags: ["React", "Node.js", "Tailwind CSS", "TypeScript"],
+    demoUrl: "https://resize.kuantyk.com/",
+    githubUrl: "https://github.com/NAUTBOL/photo-reshape-crafted"
   }
 ];
