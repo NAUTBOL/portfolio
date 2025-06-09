@@ -37,7 +37,7 @@ export const projects: Project[] = [
     demoUrl: "https://ip.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/ip"
   },
-    {
+  {
     id: 5,
     title: "Image Compressor",
     description: "Compress and resize your images for social media, WhatsApp, and web use. Fast, free, and privacy-focused - all processing happens in your browser.",
@@ -45,5 +45,14 @@ export const projects: Project[] = [
     tags: ["React", "Node.js", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://resize.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/photo-reshape-crafted"
+  },
+  {
+    id: 6,
+    title: "UTC & Local Time",
+    description: "Real-time display of UTC and your local time zone with animated indicators.",
+    image: "/images/utc.png",
+    tags: ["React", "Vite", "Tailwind CSS", "TypeScript"],
+    demoUrl: "https://utc.kuantyk.com/",
+    githubUrl: "https://github.com/NAUTBOL/time-sync-voyager"
   }
 ];
