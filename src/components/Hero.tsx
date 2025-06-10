@@ -1,6 +1,30 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+import { API_URL } from '../core/config';
 
 const Hero: React.FC = () => {
+  const [counter, setCounter] = useState(0);
+
+  const fetchCounterData = async () => {
+    const url = API_URL + "counters/total/portfolio";
+    const response = await fetch(url);
+    if (!response.ok) {
+      setCounter(0);
+    }
+    const data = await response.json();
+    setCounter(data.counter);
+  };
+
+  const formatViews = (num: number) => {
+    return new Intl.NumberFormat('en', {
+      notation: 'compact',
+      compactDisplay: 'short',
+    }).format(num);
+  };
+
+  useEffect(() => {
+    fetchCounterData();
+  }, []);
+
   return (
     <section id="home" className="min-h-screen pt-16 flex items-center relative overflow-hidden">
       <div className="absolute inset-0 z-0">
@@ -20,6 +44,12 @@ const Hero: React.FC = () => {
 
           <p className="text-xl text-text-secondary mb-8 leading-relaxed animate-slideUp opacity-0" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
             A passionate web developer crafting beautiful, functional, and user-centered digital experiences.
+          </p>
+
+          <p className="text-lg sm:text-xl font-bold">
+            <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
+              Loved by +{formatViews(counter)}
+            </span>
           </p>
 
         </div>
