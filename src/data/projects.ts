@@ -54,5 +54,14 @@ export const projects: Project[] = [
     tags: ["React", "Vite", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://utc.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/time-sync-voyager"
+  },
+    {
+    id: 7,
+    title: "Professional SVG to PNG Conversion",
+    description: "Upload any SVG file and convert it to high-quality PNG optimized for all major social media platforms.",
+    image: "/images/svg.png",
+    tags: ["React", "Vite", "Tailwind CSS", "TypeScript"],
+    demoUrl: "https://svg.kuantyk.com/",
+    githubUrl: "https://github.com/NAUTBOL/canvas-svg-convert"
   }
 ];
