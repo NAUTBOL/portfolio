@@ -43,8 +43,59 @@ const Hero: React.FC = () => {
           </h1>
 
           <p className="text-xl text-text-secondary mb-8 leading-relaxed animate-slideUp opacity-0" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
-            A passionate web developer crafting beautiful, functional, and user-centered digital experiences.
+            A passionate full stack developer crafting beautiful, functional, and user centered digital experiences.
           </p>
+
+          <div className="hidden md:flex justify-center flex-wrap gap-4 mb-6 animate-slideUp opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
+            <a
+              href="https://twitter.com/NAUTBOL"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm text-white bg-[#1DA1F2] hover:bg-[#1A91DA] px-4 py-2 rounded-full"
+            >
+              Twitter
+            </a>
+            <a
+              href="https://github.com/NAUTBOL"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm text-white bg-black hover:bg-gray-800 px-4 py-2 rounded-full"
+            >
+              GitHub
+            </a>
+            <a
+              href="https://linkedin.com/in/leandrotorressilva"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm text-white bg-[#0077B5] hover:bg-[#006699] px-4 py-2 rounded-full"
+            >
+              LinkedIn
+            </a>
+            <a
+              href="https://t.me/QvApps"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm text-white bg-[#0088cc] hover:bg-[#0077b5] px-4 py-2 rounded-full"
+            >
+              Telegram
+            </a>
+            <a
+              href="https://chat.whatsapp.com/GWyvmLs8doPGyAfd493dm2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm text-white bg-[#25D366] hover:bg-[#1ebe5d] px-4 py-2 rounded-full"
+            >
+              WhatsApp
+            </a>
+            <a
+              href="https://discord.com/users/kuantyk.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-primary text-sm text-white bg-[#5865F2] hover:bg-[#4752C4] px-4 py-2 rounded-full"
+            >
+              Discord
+            </a>
+          </div>
 
           <p className="text-lg sm:text-xl font-bold">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
