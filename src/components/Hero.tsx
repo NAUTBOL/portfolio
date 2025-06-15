@@ -88,7 +88,7 @@ const Hero: React.FC = () => {
               WhatsApp
             </a>
             <a
-              href="https://discord.com/users/kuantyk.com"
+              href="https://discord.gg/ucv4KMdQZt"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#5865F2] hover:bg-[#4752C4] px-4 py-2 rounded-full"
