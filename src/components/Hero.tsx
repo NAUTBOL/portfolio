@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
               Telegram
             </a>
             <a
-              href="https://chat.whatsapp.com/GWyvmLs8doPGyAfd493dm2"
+              href="https://whatsapp.com/channel/0029VbB862m9hXFEujuuJT3C"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#25D366] hover:bg-[#1ebe5d] px-4 py-2 rounded-full"
