@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
               LinkedIn
             </a>
             <a
-              href="https://t.me/QvApps"
+              href="https://t.me/NAUTBOL"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#0088cc] hover:bg-[#0077b5] px-4 py-2 rounded-full"
