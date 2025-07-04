@@ -55,7 +55,7 @@ export const projects: Project[] = [
     demoUrl: "https://utc.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/time-sync-voyager"
   },
-    {
+  {
     id: 7,
     title: "Professional SVG to PNG Conversion",
     description: "Upload any SVG file and convert it to high-quality PNG optimized for all major social media platforms.",
@@ -63,5 +63,14 @@ export const projects: Project[] = [
     tags: ["React", "Vite", "Tailwind CSS", "TypeScript"],
     demoUrl: "https://svg.kuantyk.com/",
     githubUrl: "https://github.com/NAUTBOL/canvas-svg-convert"
+  },
+  {
+    id: 8,
+    title: "Cuban Radio",
+    description: "Enjoy Cuban Radio, over 50 municipal, provincial, and national stations. Listen to Cuban Radio from anywhere in the world.",
+    image: "/images/screencapture-svg-kuantyk-2025-06-11-18_46_37.png",
+    tags: ["React", "Vite", "Tailwind CSS", "TypeScript"],
+    demoUrl: "https://radio.kuantyk.com/",
+    githubUrl: "https://github.com/NAUTBOL"
   }
 ];

@@ -48,7 +48,7 @@ const Hero: React.FC = () => {
 
           <div className="hidden md:flex justify-center flex-wrap gap-4 mb-6 animate-slideUp opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
             <a
-              href="https://twitter.com/NAUTBOL"
+              href="https://x.com/NAUTBOL"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#1DA1F2] hover:bg-[#1A91DA] px-4 py-2 rounded-full"
