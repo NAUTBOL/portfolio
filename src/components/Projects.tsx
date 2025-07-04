@@ -18,7 +18,7 @@ const Projects: React.FC = () => {
           {projects.map((project) => (
             <div
               key={project.id}
-              className="card group animate-fadeIn flex flex-col" // Añadimos flex y flex-col
+              className="card group animate-fadeIn flex flex-col bg-zinc-900" // Añadimos flex y flex-col
             >
               <div className="p-6 pb-2 flex flex-col justify-between flex-grow"> {/* Ajuste de padding y flexbox para contenido principal */}
                 <div className="flex justify-between items-start mb-4"> {/* Ajustamos a items-start para alinear bien el título y los iconos */}
