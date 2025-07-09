@@ -46,55 +46,53 @@ const Hero: React.FC = () => {
             A passionate full stack developer crafting beautiful, functional, and user centered digital experiences.
           </p>
 
-          <div className="hidden md:flex justify-center flex-wrap gap-4 mb-6 animate-slideUp opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
+          <div className="md:flex justify-center flex-wrap gap-4 mb-6 animate-slideUp opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
             <a
-              href="https://x.com/NAUTBOL"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn-primary text-sm text-white bg-[#1DA1F2] hover:bg-[#1A91DA] px-4 py-2 rounded-full"
+              href="https://mobile.kuantyk.com"
+              className="btn-primary text-sm"
             >
-              Twitter
+              Mobile Portfolio
             </a>
-            <a
+            {/* <a
               href="https://github.com/NAUTBOL"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-black hover:bg-gray-800 px-4 py-2 rounded-full"
             >
               GitHub
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://linkedin.com/in/leandrotorressilva"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#0077B5] hover:bg-[#006699] px-4 py-2 rounded-full"
             >
               LinkedIn
-            </a>
-            <a
-              href="https://t.me/NAUTBOL"
+            </a> */}
+            {/* <a
+              href="https://t.me/QVAPPS"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#0088cc] hover:bg-[#0077b5] px-4 py-2 rounded-full"
             >
               Telegram
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://whatsapp.com/channel/0029VbB862m9hXFEujuuJT3C"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#25D366] hover:bg-[#1ebe5d] px-4 py-2 rounded-full"
             >
               WhatsApp
-            </a>
-            <a
+            </a> */}
+            {/* <a
               href="https://discord.gg/ucv4KMdQZt"
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm text-white bg-[#5865F2] hover:bg-[#4752C4] px-4 py-2 rounded-full"
             >
               Discord
-            </a>
+            </a> */}
           </div>
 
           <p className="text-lg sm:text-xl font-bold">
