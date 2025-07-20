@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { API_URL } from '../core/config';
+import { Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [counter, setCounter] = useState(0);
@@ -42,17 +43,29 @@ const Hero: React.FC = () => {
             Hi, I'm <span className="text-gradient from-accent-blue to-accent-purple">KUANTYK</span>
           </h1>
 
-          <p className="text-xl text-text-secondary mb-8 leading-relaxed animate-slideUp opacity-0" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
+          <p className="text-xl text-text-secondary mb-6 leading-relaxed animate-slideUp opacity-0" style={{ animationDelay: '0.5s', animationFillMode: 'forwards' }}>
             A passionate full stack developer crafting beautiful, functional, and user centered digital experiences.
           </p>
 
-          <div className="md:flex justify-center flex-wrap gap-4 mb-6 animate-slideUp opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
+          <div className="flex justify-center animate-fade-in">
             <a
+              href="https://mobile.kuantyk.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 btn-primary rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all"
+            >
+              <Download className="w-4 h-4 mr-2" />
+              MOBILE APPS
+            </a>
+          </div>
+
+          <div className="md:flex justify-center flex-wrap gap-4 mb-6 animate-slideUp opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
+            {/* <a
               href="https://mobile.kuantyk.com"
               className="btn-primary text-sm"
             >
               Mobile Portfolio
-            </a>
+            </a> */}
             {/* <a
               href="https://github.com/NAUTBOL"
               target="_blank"
