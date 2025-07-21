@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { API_URL } from '../core/config';
-import { Download } from 'lucide-react';
+import { ArrowUpFromLine, Download } from 'lucide-react';
 
 const Hero: React.FC = () => {
   const [counter, setCounter] = useState(0);
@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 btn-primary rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all"
             >
-              <Download className="w-4 h-4 mr-2" />
+              <ArrowUpFromLine className="w-4 h-4 mr-2" />
               MOBILE APPS
             </a>
           </div>
