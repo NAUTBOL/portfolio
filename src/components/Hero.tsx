@@ -47,15 +47,38 @@ const Hero: React.FC = () => {
             A passionate full stack developer crafting beautiful, functional, and user centered digital experiences.
           </p>
 
-          <div className="flex justify-center animate-fade-in">
+          <div className="flex flex-wrap justify-center gap-2 mt-4 animate-fade-in">
             <a
-              href="https://mobile.kuantyk.com"
+              href="https://whatsapp.com/channel/0029VbB862m9hXFEujuuJT3C"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 btn-primary rounded-full bg-primary text-white shadow-lg hover:shadow-xl transition-all"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#25D366] text-white shadow-sm hover:shadow-md transition-all"
             >
-              <ArrowUpFromLine className="w-4 h-4 mr-2" />
-              MOBILE APPS
+              WHATSAPP
+            </a>
+            <a
+              href="https://t.me/QVAPPS"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#0088cc] text-white shadow-sm hover:shadow-md transition-all"
+            >
+              TELEGRAM
+            </a>
+            <a
+              href="https://play.google.com/store/apps/developer?id=KUANTYK"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#FF0000] text-white shadow-sm hover:shadow-md transition-all"
+            >
+              GOOGLE PLAY
+            </a>
+            <a
+              href="https://www.apklis.cu/developer/leo911003"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#000000] text-white shadow-sm hover:shadow-md transition-all"
+            >
+              APKLIS
             </a>
           </div>
 
