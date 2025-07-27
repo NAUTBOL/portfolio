@@ -73,12 +73,12 @@ const Hero: React.FC = () => {
               GOOGLE PLAY
             </a>
             <a
-              href="https://digital.kuantyk.com/"
+              href="https://x.com/NAUTBOL"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#000000] text-white shadow-sm hover:shadow-md transition-all"
             >
-              MORE
+              TWITTER
             </a>
           </div>
 
