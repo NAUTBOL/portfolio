@@ -49,6 +49,14 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-wrap justify-center gap-2 mt-4 animate-fade-in">
             <a
+              href="https://mobile.kuantyk.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#F56B00] text-white shadow-sm hover:shadow-md transition-all"
+            >
+              APPS
+            </a>
+            <a
               href="https://whatsapp.com/channel/0029VbB862m9hXFEujuuJT3C"
               target="_blank"
               rel="noopener noreferrer"
@@ -68,17 +76,17 @@ const Hero: React.FC = () => {
               href="https://play.google.com/store/apps/developer?id=KUANTYK"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#FF0000] text-white shadow-sm hover:shadow-md transition-all"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#EA4335] text-white shadow-sm hover:shadow-md transition-all"
             >
               GOOGLE PLAY
             </a>
             <a
-              href="https://x.com/NAUTBOL"
+              href="https://www.facebook.com/kuantyk.dev"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#000000] text-white shadow-sm hover:shadow-md transition-all"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#3b5998] text-white shadow-sm hover:shadow-md transition-all"
             >
-              TWITTER
+              FACEBOOK
             </a>
           </div>
 
