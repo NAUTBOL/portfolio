@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#F56B00] text-white shadow-sm hover:shadow-md transition-all"
             >
-              APPS
+              #QVAPPS
             </a>
             <a
               href="https://whatsapp.com/channel/0029VbB862m9hXFEujuuJT3C"
@@ -73,20 +73,20 @@ const Hero: React.FC = () => {
               TELEGRAM
             </a>
             <a
+              href="https://x.com/NAUTBOL"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#000000] text-white shadow-sm hover:shadow-md transition-all"
+            >
+              TWITTER
+            </a>
+            <a
               href="https://play.google.com/store/apps/developer?id=KUANTYK"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#EA4335] text-white shadow-sm hover:shadow-md transition-all"
             >
               GOOGLE PLAY
-            </a>
-            <a
-              href="https://www.facebook.com/kuantyk.dev"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#3b5998] text-white shadow-sm hover:shadow-md transition-all"
-            >
-              FACEBOOK
             </a>
           </div>
 
