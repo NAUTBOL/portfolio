@@ -9,9 +9,9 @@ function App() {
       <Navbar />
       <main className="flex-grow">
         <Hero />
-        <Projects />
+        {/* <Projects /> */}
       </main>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

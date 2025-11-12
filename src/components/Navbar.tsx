@@ -62,18 +62,11 @@ const Navbar: React.FC = () => {
       <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 bg-dark-800 shadow-lg">
           <a
-            href="#home"
+            href="https://www.paypal.com/paypalme/NAUTBOL"
             className="block px-3 py-2 rounded-md text-base font-medium text-text-secondary hover:text-accent-blue hover:bg-dark-700 transition-colors"
             onClick={() => setIsOpen(false)}
           >
-            Home
-          </a>
-          <a
-            href="#projects"
-            className="block px-3 py-2 rounded-md text-base font-medium text-text-secondary hover:text-accent-blue hover:bg-dark-700 transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Projects
+            Donate
           </a>
         </div>
       </div>
