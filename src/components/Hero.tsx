@@ -57,14 +57,14 @@ const Hero: React.FC = () => {
             >
               TWITTER / X
             </a>
-            <a
+            {/* <a
               href="https://play.google.com/store/apps/developer?id=KUANTYK"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#EA4335] text-white shadow-sm hover:shadow-md transition-all"
             >
               GOOGLE PLAY
-            </a>
+            </a> */}
           </div>
 
           {/* <BannerAd /> */}
