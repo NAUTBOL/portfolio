@@ -67,7 +67,7 @@ const Hero: React.FC = () => {
             </a>
           </div>
 
-          <BannerAd />
+          {/* <BannerAd /> */}
 
           <div className="md:flex justify-center flex-wrap gap-4 mb-6 animate-slideUp opacity-0" style={{ animationDelay: '0.6s', animationFillMode: 'forwards' }}>
             {/* <a
