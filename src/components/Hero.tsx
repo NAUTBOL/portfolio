@@ -50,12 +50,12 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-wrap justify-center gap-2 mt-4 animate-fade-in">
             <a
-              href="https://x.com/NAUTBOL"
+              href="https://links.kuantyk.com/lnk/OCA1wp"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#000000] text-white shadow-sm hover:shadow-md transition-all"
+              className="uppercase inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#000000] text-white shadow-sm hover:shadow-md transition-all"
             >
-              TWITTER / X
+              Portfolio
             </a>
             {/* <a
               href="https://play.google.com/store/apps/developer?id=KUANTYK"
