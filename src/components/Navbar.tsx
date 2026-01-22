@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Heart } from 'lucide-react';
+import { Menu, X, Heart, Twitter } from 'lucide-react';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -39,11 +39,12 @@ const Navbar: React.FC = () => {
           <div className="flex items-center">
             <div className="hidden md:block">
               <a
-                href="https://www.paypal.com/paypalme/NAUTBOL"
+                href="https://x.com/NAUTBOL"
                 className="btn-primary text-sm"
+                target='_blank'
               >
-                <Heart size={18} className="mr-2" />
-                Donate
+                <Twitter size={18} className="mr-2" />
+                Twitter
               </a>
             </div>
 

@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
 
           <div className="flex flex-wrap justify-center gap-2 mt-4 animate-fade-in">
             <a
-              href="https://links.kuantyk.com/lnk/OCA1wp"
+              href="https://links.kuantyk.com/lnk/fpEomn"
               target="_blank"
               rel="noopener noreferrer"
               className="uppercase inline-flex items-center px-4 py-2 rounded-full font-bold bg-[#000000] text-white shadow-sm hover:shadow-md transition-all"
