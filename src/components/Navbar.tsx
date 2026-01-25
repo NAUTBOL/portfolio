@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
           </div>
 
           <div className="flex items-center">
-            <div className="hidden md:block">
+            <div className="block">
               <a
                 href="https://x.com/NAUTBOL"
                 className="btn-primary text-sm"
@@ -47,14 +47,6 @@ const Navbar: React.FC = () => {
                 Twitter
               </a>
             </div>
-
-            <button
-              className="ml-2 md:hidden p-2 rounded-full text-text-secondary hover:text-accent-blue hover:bg-dark-700 transition-colors"
-              onClick={toggleMenu}
-              aria-label="Toggle menu"
-            >
-              {isOpen ? <X size={24} /> : <Menu size={24} />}
-            </button>
           </div>
         </div>
       </div>

@@ -118,11 +118,11 @@ const Hero: React.FC = () => {
             </a> */}
           </div>
 
-          {/* <p className="text-lg sm:text-xl font-bold">
+          <p className="text-lg sm:text-xl font-bold">
             <span className="bg-gradient-to-r from-blue-400 via-purple-500 to-pink-500 bg-clip-text text-transparent">
-              Loved by +{formatViews(counter)}
+              +{formatViews(counter).toUpperCase()} VISITS ACROSS MY APPS
             </span>
-          </p> */}
+          </p>
 
         </div>
 
