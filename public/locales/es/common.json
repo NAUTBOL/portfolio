@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "email": "Email"
+  },
+  "hero": {
+    "greeting": "Hola, soy {{name}}",
+    "tagline": "Un desarrollador full stack apasionado que crea experiencias digitales bonitas, funcionales y centradas en el usuario.",
+    "viewProjects": "Ver proyectos",
+    "getInTouch": "Contactar",
+    "visits": "+{{value}} visitas en mis apps"
+  },
+  "projects": {
+    "title": "Productos",
+    "subtitle": "Productos SaaS que he diseñado y construido de principio a fin.",
+    "visit": "Visitar",
+    "perMonth": "/mes",
+    "billedAnnually": "o {{price}}/año facturado anualmente"
+  },
+  "items": {
+    "cleanfood": {
+      "name": "CleanFood",
+      "description": "Tu carta, lista para escanear. Crea tus platos una vez, organízalos en cartas y pon un QR en cada mesa.",
+      "advantages": [
+        "Biblioteca de platos reutilizable con alérgenos",
+        "Cartas y secciones ilimitadas",
+        "Un código QR por cada mesa",
+        "Tus comensales piden desde la mesa, llaman al camarero y piden la cuenta",
+        "QR de WiFi: tus clientes se conectan sin teclear la contraseña"
+      ]
+    },
+    "fitcoach": {
+      "name": "FitCoach",
+      "description": "La plataforma para entrenadores personales serios. Gestiona clientes, entrega planes y haz seguimiento del progreso, sin burocracia.",
+      "advantages": [
+        "Gestión ilimitada de clientes",
+        "Constructor de rutinas y planes personalizados",
+        "Plantillas de entrenamiento reutilizables",
+        "Seguimiento de progreso e historial de entrenamientos",
+        "Mensajería directa entrenador-cliente"
+      ]
+    }
+  }
+}

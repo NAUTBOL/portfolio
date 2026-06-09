@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "email": "Email"
+  },
+  "hero": {
+    "greeting": "Hi, I'm {{name}}",
+    "tagline": "A passionate full stack developer crafting beautiful, functional, and user centered digital experiences.",
+    "viewProjects": "View projects",
+    "getInTouch": "Get in touch",
+    "visits": "+{{value}} visits across my apps"
+  },
+  "projects": {
+    "title": "Products",
+    "subtitle": "SaaS products I've designed and built end to end.",
+    "visit": "Visit",
+    "perMonth": "/mo",
+    "billedAnnually": "or {{price}}/yr billed annually"
+  },
+  "items": {
+    "cleanfood": {
+      "name": "CleanFood",
+      "description": "Your restaurant menu, ready to scan. Build dishes once, organize them into menus, and put a QR on every table.",
+      "advantages": [
+        "Reusable dish library with allergens",
+        "Unlimited menus and sections",
+        "A QR code for every table",
+        "Diners order from the table, call the waiter and request the bill",
+        "WiFi QR: customers connect without typing the password"
+      ]
+    },
+    "fitcoach": {
+      "name": "FitCoach",
+      "description": "The platform for serious personal trainers. Manage clients, deliver plans, and track results without the admin overhead.",
+      "advantages": [
+        "Unlimited client management",
+        "Custom routine and plan builder",
+        "Reusable workout templates",
+        "Progress tracking and workout history",
+        "Direct trainer-client messaging"
+      ]
+    }
+  }
+}

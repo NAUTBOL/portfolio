@@ -1,66 +1,39 @@
-import React, { useState, useEffect } from 'react';
-import { Menu, X, Heart, Twitter } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import { Mail } from 'lucide-react';
+import { useTranslation } from 'react-i18next';
+import { siteConfig } from '../config/site';
+import LanguageSwitcher from './LanguageSwitcher';
 
 const Navbar: React.FC = () => {
-  const [isOpen, setIsOpen] = useState(false);
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const isScrolled = window.scrollY > 10;
-      if (isScrolled !== scrolled) {
-        setScrolled(isScrolled);
-      }
-    };
-
+    const handleScroll = () => setScrolled(window.scrollY > 10);
+    handleScroll();
     window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, [scrolled]);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
 
   return (
     <header
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-dark-800/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
-        }`}
+      className={`fixed top-0 left-0 right-0 z-50 h-14 border-b transition-colors duration-150 ${
+        scrolled ? 'bg-bg/95 backdrop-blur-sm border-line' : 'bg-transparent border-transparent'
+      }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between h-16 items-center">
-          <div className="flex items-center">
-            <a href="#" className="text-xl font-bold text-text-primary hover:text-accent-blue transition-colors">
-              <span className="text-accent-blue">KUAN</span>TYK
+      <div className="max-w-7xl mx-auto h-full px-4 md:px-8">
+        <div className="flex h-full items-center justify-between">
+          <a href="#home" className="text-base font-semibold text-content">
+            {siteConfig.name}
+          </a>
+
+          <div className="flex items-center gap-3">
+            <LanguageSwitcher />
+            <a href={`mailto:${siteConfig.email}`} className="btn-secondary">
+              <Mail size={16} className="mr-2" />
+              {t('nav.email')}
             </a>
           </div>
-
-          <div className="flex items-center">
-            <div className="block">
-              <a
-                href="https://x.com/NAUTBOL"
-                className="btn-primary text-sm"
-                target='_blank'
-              >
-                <Twitter size={18} className="mr-2" />
-                Twitter
-              </a>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Mobile menu */}
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
-        <div className="px-2 pt-2 pb-3 space-y-1 bg-dark-800 shadow-lg">
-          <a
-            href="https://www.paypal.com/paypalme/NAUTBOL"
-            className="block px-3 py-2 rounded-md text-base font-medium text-text-secondary hover:text-accent-blue hover:bg-dark-700 transition-colors"
-            onClick={() => setIsOpen(false)}
-          >
-            Donate
-          </a>
         </div>
       </div>
     </header>
