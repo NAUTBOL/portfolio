@@ -9,6 +9,9 @@
     "getInTouch": "Contactar",
     "visits": "+{{value}} visitas en mis apps"
   },
+  "footer": {
+    "rights": "Todos los derechos reservados."
+  },
   "projects": {
     "title": "Productos",
     "subtitle": "Productos SaaS que he diseñado y construido de principio a fin.",
