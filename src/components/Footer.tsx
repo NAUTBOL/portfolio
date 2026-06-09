@@ -12,6 +12,7 @@ const Footer: React.FC = () => {
         <p className="text-sm text-content-secondary">
           © {year} {siteConfig.name}. {t('footer.rights')}
         </p>
+        
         <a
           href={`mailto:${siteConfig.email}`}
           className="text-sm text-content-secondary transition-colors duration-150 hover:text-content"
